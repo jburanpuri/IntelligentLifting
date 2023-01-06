@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-intelligentlifting-dev-183533-authRole",
+      "UnauthRoleArn": "arn:aws:iam::320089039205:role/amplify-intelligentlifting-dev-183533-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::320089039205:role/amplify-intelligentlifting-dev-183533-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-intelligentlifting-dev-183533-deployment",
+      "UnauthRoleName": "amplify-intelligentlifting-dev-183533-unauthRole",
+      "StackName": "amplify-intelligentlifting-dev-183533",
+      "StackId": "arn:aws:cloudformation:us-east-2:320089039205:stack/amplify-intelligentlifting-dev-183533/d1cde920-8e1a-11ed-a4f4-026cb7c72132",
+      "AmplifyAppId": "d20yfwz17cdmwp"
+    }
+  }
+}
