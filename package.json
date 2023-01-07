@@ -16,7 +16,8 @@
     "eslint-config-next": "13.1.1",
     "next": "13.1.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1"
   },
   "description": "The goal of this project is to bring afforable workout plans to everyone. The goal is to use **AWS Amplify** to host the website, **DynamoDB** to store the workout plans, **AWS Lambda** and **API Gateway** to handle the backend, and **Stripe** to handle payments.",
   "main": "next.config.js",
