@@ -10,7 +10,7 @@ We will use Nextjs / React / Tailwind CSS for the frontend. Do all the serverles
 
 ## Schedule
 
-#### THIS IS A ROUGH OUTLINE OF THE SCHEDULE. IT WILL LIKELY CHANGE AS I PROGRESS THROUGH THE PROJECT. AS I LEARN MORE SOME REQUIREMENTS OR TASKS MAY CHANGE.
+#### This is a rough outline
 
 ### Week 1: January 9th - 15th
 
@@ -18,6 +18,9 @@ We will use Nextjs / React / Tailwind CSS for the frontend. Do all the serverles
 - Setup AWS Amplify, connect to Github
 - Setup DynamoDB and add some sample workout plans
 - Create a nav bar
+- Buy domain via Amazon Route 53
+- Setup CI/CD pipeline connected to this GitHub repo
+
 
 ### Week 2: January 16th - 22nd
 
