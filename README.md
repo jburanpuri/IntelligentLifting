@@ -1,5 +1,7 @@
 # Jamstack ECommerce Website for Intelligent Lifting
 
+### intelligentlifting.com
+
 ## Objective
 
 The goal of this project is to bring afforable workout plans to everyone. The goal is to use **AWS Amplify** to host the website, **DynamoDB** to store the workout plans, **AWS Lambda** and **API Gateway** to handle the backend, and **Stripe** to handle payments.
