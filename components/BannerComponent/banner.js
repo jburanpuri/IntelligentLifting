@@ -11,7 +11,7 @@ export default function Banner() {
             </span>
             <p className="ml-3 truncate font-medium text-white">
               <span className="md:hidden">Excited to launch Intelligent Lifting</span>
-              <span className="hidden md:inline">Intelligent Lifting is launching soon, and we aim to disrupt the workout industry. Check out our schedule on GitHub!</span>
+              <span className="hidden md:inline">Intelligent Lifting is launching soon, and we aim to disrupt the workout industry. Check out our vision and schedule on GitHub</span>
             </p>
           </div>
           <div className="order-3 mt-2 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto">
@@ -21,15 +21,6 @@ export default function Banner() {
             >
               GitHub
             </a>
-          </div>
-          <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
-            <button
-              type="button"
-              className="-mr-1 flex rounded-md p-2 hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
-            >
-              <span className="sr-only">Dismiss</span>
-              <XMarkIcon className="h-6 w-6 text-white" aria-hidden="true" />
-            </button>
           </div>
         </div>
       </div>

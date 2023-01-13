@@ -20,9 +20,9 @@ const features = [
     icon: BoltIcon,
   },
   {
-    name: 'Incredibly cheap',
+    name: 'Better results, for free',
     description:
-      'Stop spending so much behind cookie cutter plans. Get a plan that is tailored to you, and your goals, for insanely cheap.',
+      'Stop spending so much behind cookie cutter plans. Get a plan that is tailored to you, and your goals, for free.',
     icon: DevicePhoneMobileIcon,
   },
 ]
