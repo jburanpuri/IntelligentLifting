@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link'
 
 export default function Hero() {
     return (
@@ -17,9 +18,9 @@ export default function Hero() {
                     <div className="mt-8 flex justify-center">
 
                         <div className="ml-3 inline-flex">
-                            <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
-                                Learn More 
-                            </a>
+                            <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
+                                <Link href="/about">Learn More</Link>  
+                            </div>
                         </div>
                     </div>
                 </div>
