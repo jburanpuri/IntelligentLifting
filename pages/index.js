@@ -9,7 +9,6 @@ import Banner from '../components/BannerComponent/banner'
 export default function Home() {
    return (
     <>
-    <Banner/>
       <Hero/>
       <Marketing/>
     </>
