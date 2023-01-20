@@ -3,28 +3,26 @@ import Link from 'next/link'
 
 export default function Hero() {
     return (
-        <div className="bg-gray-800">
-            <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-                <div className="text-center">
-                    <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-                        <span className="block">Get Bigger and Stronger, Faster.</span>
-                        <span className="block">For an expensive price of $0</span>
-                    </h2>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-300 mx-auto">
-                        Training plans don't have to be expensive.
-                        We believe fitness can change the world, and our platform will provide you with everything you need to get started.
-                        Our plans are not simple cookie-cutter plans like you see on other sites. Our plans adabt to your body, To find out more, click below.
-                    </p>
-                    <div className="mt-8 flex justify-center">
-
-                        <div className="ml-3 inline-flex">
-                            <div className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
-                                <Link href="/about">Learn More</Link>  
-                            </div>
-                        </div>
+        <div className="bg-gray-100 pb-12 overflow-y-hidden" style={{ minHeight: 700 }}>
+        <dh-component>
+            <div className="bg-gray-100">
+                <div className="container mx-auto flex flex-col items-center py-12 sm:py-24">
+                    <div className="w-11/12 sm:w-2/3 lg:flex justify-center items-center flex-col  mb-5 sm:mb-10">
+                        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
+                            Plans That Completely Adapt to Your
+                            <span className="text-indigo-700"> Recovery </span>
+                            To Maximize Results
+                        </h1>
+                        <p className="mt-5 sm:mt-10 lg:w-10/12 text-black-100 font-normal text-center text-sm sm:text-lg">Transform Your Body with a FREE Adaptable Workout Plan - No More Overpaying for Personal Trainers or Settling for One-Size-Fits-All Plans!</p>
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 lg:text-xl lg:font-bold  rounded text-white px-4 sm:px-10 border border-indigo-700 py-2 sm:py-4 text-sm">See Plans</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </dh-component>
+        {/* Code block ends */}
+    </div>
+
     );
 }
