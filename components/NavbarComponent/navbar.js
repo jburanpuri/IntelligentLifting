@@ -12,7 +12,7 @@ export default function NavBar() {
   const isTablet = width >= 768 && width < 1200;
 
   return (
-    <nav className="bg-indigo-600 flex items-center justify-between px-4 py-6">
+    <nav className="bg-indigo-700 flex items-center justify-between px-4 py-6">
     <div className="flex items-center">
       <a href="#" className="text-white font-medium">Home</a>
     </div>
