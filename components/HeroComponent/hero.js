@@ -11,9 +11,9 @@ export default function Hero() {
                         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-gray-800 font-black leading-7 md:leading-10">
 
                         <span className="text-red-500">FREE </span>
-                            Workout Plans that adapt to your
+                            workout plans that adapt to your
                             <span className="text-indigo-700"> RECOVERY </span>
-                            to maximize gains
+                            to maximize results
                             
                         </h1>
                         <p className="mt-5 sm:mt-10 lg:w-10/12 text-black-100 font-normal text-center text-sm sm:text-lg">Transform Your Body with an Adaptable Workout Plan - No More Overpaying for Personal Trainers or Settling for One-Size-Fits-All Plans!</p>

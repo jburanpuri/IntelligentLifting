@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useWindowSize } from 'react-use';
+import Link from 'next/link'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -14,10 +15,10 @@ export default function NavBar() {
   return (
     <nav className="bg-indigo-700 flex items-center justify-between px-4 py-6">
     <div className="flex items-center">
-      <a href="#" className="text-white font-medium">Home</a>
+      <Link href="/home" className="text-white font-medium">Home</Link>
     </div>
     <div className="flex items-center">
-      <a href="#" className="text-white font-medium">All Plans</a>
+      <Link href="/plans" className="text-white font-medium">All Plans</Link>
     </div>
     {
       (isMobile || isTablet) &&
