@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'next/link'
-import ThreeFullBody from '../components/PlansComponent/3DayPlans/fullbody'
-import FourFullBody from '../components/PlansComponent/4DayPlans/fullbody'
-import FiveFullBody from '../components/PlansComponent/5DayPlans/fullbody'
-import ThreeUpper from '../components/PlansComponent/3DayPlans/upperfocused'
-import FourUpper from '../components/PlansComponent/4DayPlans/upperfocused'
-import FiveUpper from '../components/PlansComponent/5DayPlans/upperfocused'
+import ThreeFullBody from '../components/PlansComponent/ThreeDayPlans/fullbody'
+import FourFullBody from '../components/PlansComponent/FourDayPlans/fullbody'
+import FiveFullBody from '../components/PlansComponent/FiveDayPlans/fullbody'
+import ThreeUpper from '../components/PlansComponent/ThreeDayPlans/upperfocused'
+import FourUpper from '../components/PlansComponent/FourDayPlans/upperfocused'
+import FiveUpper from '../components/PlansComponent/FiveDayPlans/upperfocused'
 
 
 
