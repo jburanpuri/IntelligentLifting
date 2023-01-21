@@ -13,7 +13,7 @@ export default function Plans() {
   return (
     <>
         <div className="bg-gray-300 py-4">
-        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-center text-gray-800 font-black leading-7 md:leading-10">
+        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-gray-800 font-black leading-7 md:leading-10 py-2 px-4">
             <span className="text-indigo-500">THREE DAY ROUTINES</span>
         </h2>
     </div>
@@ -22,7 +22,7 @@ export default function Plans() {
         <ThreeUpper/>
 
         <div className="bg-gray-300 py-4">
-        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-center text-gray-800 font-black leading-7 md:leading-10">
+        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-gray-800 font-black leading-7 md:leading-10 py-2 px-4">
             <span className="text-indigo-500">FOUR DAY ROUTINES</span>
         </h2>
     </div>
@@ -30,7 +30,7 @@ export default function Plans() {
         <hr className="border-black w-full"></hr>
         <FourUpper/>
         <div className="bg-gray-300 py-4">
-        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-center text-gray-800 font-black leading-7 md:leading-10">
+        <h2 className="text-l sm:text-3xl md:text-4xl lg:text-5xl xl:text-4xl text-gray-800 font-black leading-7 md:leading-10 py-2 px-4">
             <span className="text-indigo-500">FIVE DAY ROUTINES</span>
         </h2>
     </div>

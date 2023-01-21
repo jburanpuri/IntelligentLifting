@@ -18,7 +18,7 @@ export default function NavBar() {
       <Link href="/home" className="text-white font-medium">Home</Link>
     </div>
     <div className="flex items-center">
-      <Link href="/plans" className="text-white font-medium">All Plans</Link>
+      <Link href="/plans" className="text-white font-medium">Plans</Link>
     </div>
     {
       (isMobile || isTablet) &&

@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="text-center">Intelligent Lifting</div>
           <div className="flex">
             <Link href="/home" className="px-4 py-2 text-white hover:bg-indigo-800">Home</Link>
-            <Link href="/plans" className="px-4 py-2 text-white hover:bg-indigo-800">All Plans</Link>
+            <Link href="/plans" className="px-4 py-2 text-white hover:bg-indigo-800">Plans</Link>
           </div>
         </div>
       </footer>
