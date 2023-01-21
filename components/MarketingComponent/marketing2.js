@@ -28,9 +28,9 @@ export default function Marketing2() {
                 height="24"
               />
             </svg>
-            <span className="relative">The</span>
+            
           </span>{' '}
-          best way to train & grow
+          The best way to train & grow
         </h2>
         <p className="text-base text-gray-700 md:text-lg">
         Intelligent Lifting is proud to present a personalized workout program that is tailored to each individual muscle group's recovery, allowing for optimal muscle hypertrophy and strength gains. This unique approach ensures that every aspect of your training is tailored to your specific body, making it the best way to achieve your goals.
