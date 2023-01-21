@@ -11,7 +11,7 @@ export default function NavBar() {
 
     return (
         
-        <nav className={"w-full bg-black shadow fixed top-0"}>
+        <nav className={"w-full bg-black shadow top-0"}>
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
