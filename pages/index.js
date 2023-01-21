@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from '../components/HeroComponent/hero'
 import Marketing from '../components/MarketingComponent/marketing'
-import Banner from '../components/BannerComponent/banner'
 
 
 export default function Home() {
