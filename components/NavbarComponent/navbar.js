@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
+    const [selected, setSelected] = useState("home");
 
     return (
         <nav className="w-full bg-black shadow">
@@ -52,16 +53,18 @@ export default function NavBar() {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
-                        }`}
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"} `}      
                     >
+
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white hover:text-blue-500">
+                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
                                 <Link href="/home">Home</Link>
                             </li>
-                            <li className="text-white hover:text-blue-500">
+                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
                                 <Link href="/plans">All Plans</Link>
+                            </li>
+                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
+                                <Link href="https://github.com/jburanpuri/IntelligentLifting" target="_blank">GitHub Repository</Link>
                             </li>
                         </ul>
                     </div>
