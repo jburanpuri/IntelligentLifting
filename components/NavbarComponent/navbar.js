@@ -3,10 +3,15 @@ import Link from "next/link";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
-    const [selected, setSelected] = useState("home");
+    const [navbarOpen, setNavbarOpen] = useState(true);
+
+    function handleToggle() {
+        setNavbarOpen(!navbarOpen);
+    }
 
     return (
-        <nav className="w-full bg-black shadow">
+        
+        <nav className={"w-full bg-black shadow fixed top-0"}>
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -56,17 +61,24 @@ export default function NavBar() {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"} `}      
                     >
 
-                        <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
-                                <Link href="/home">Home</Link>
-                            </li>
-                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
-                                <Link href="/plans">All Plans</Link>
-                            </li>
-                            <li className="text-white px-4 py-2 hover:bg-indigo-500 rounded-md">
-                                <Link href="https://github.com/jburanpuri/IntelligentLifting" target="_blank">GitHub Repository</Link>
-                            </li>
-                        </ul>
+                    <div onClick={() => setNavbarOpen(false)}>
+                    <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <li className="text-white hover:bg-indigo-500 rounded-md">
+                        <Link href="/plans" className="px-4 py-4 text-white hover:bg-indigo-500 rounded-md">All Plans</Link>
+                        </li>
+                        <li className="text-white hover:bg-indigo-500 rounded-md">
+                        <Link href="/threeday" className="px-4 py-4 text-white hover:bg-indigo-500 rounded-md">Three Day Plans</Link>
+                        </li>
+                        <li className="text-white hover:bg-indigo-500 rounded-md">
+                        <Link href="/fourday" className="px-4 py-4 text-white hover:bg-indigo-500 rounded-md">Four Day Plans</Link>
+                        </li>
+                        <li className="text-white hover:bg-indigo-500 rounded-md">
+                        <Link href="/fiveday" className="px-4 py-4 text-white hover:bg-indigo-500 rounded-md">Five Day Plans</Link>
+                        </li>
+                    </ul>
+                    </div>
+
+
                     </div>
                 </div>
             </div>
