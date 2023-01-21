@@ -39,7 +39,7 @@ export default function Navbar() {
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
-                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden text-white bg-black" onClick={() => {
+                <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden text-white bg-black rounded-lg" onClick={() => {
                     setOpen(!open)
                 }}>
                     <span className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "bg-black rotate-45 translate-y-3.5" : "bg-black"}`} />
