@@ -35,6 +35,7 @@ export default function Plans() {
         <FiveFullBody/>
         <hr className="border-black w-full"></hr>
         <FiveUpper/>
+
     </>
 
   )
