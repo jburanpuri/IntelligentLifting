@@ -32,7 +32,7 @@ export default function Marketing2() {
           </span>{' '}
           The best way to train & grow
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="text-base text-gray-700 md:text-lg animate-fade-in-down">
         Intelligent Lifting is proud to present a personalized workout program that is tailored to each individual muscle group's recovery, allowing for optimal muscle hypertrophy and strength gains. This unique approach ensures that every aspect of your training is tailored to your specific body, making it the best way to achieve your goals.
         </p>
       </div>
@@ -40,8 +40,8 @@ export default function Marketing2() {
         <div className="absolute bottom-0 left-0 w-full h-1 duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
         <div className="absolute bottom-0 left-0 w-1 h-full duration-300 origin-bottom transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
         <div className="absolute top-0 left-0 w-full h-1 duration-300 origin-right transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
-        <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100" />
-        <div className="relative flex flex-col items-center h-full py-10 duration-300 bg-white rounded-sm transition-color sm:items-stretch sm:flex-row">
+        <div className="absolute bottom-0 right-0 w-1 h-full duration-300 origin-top transform scale-y-0 bg-deep-purple-accent-400 group-hover:scale-y-100 animate-fade-in-down" />
+        <div className="relative flex flex-col items-center h-full py-10 duration-300 bg-white rounded-sm transition-color sm:items-stretch sm:flex-row animate-fade-in-down">
           <div className="px-12 py-8 text-center">
             <h6 className="text-4xl font-bold text-deep-purple-accent-400 sm:text-5xl">
               FREE
