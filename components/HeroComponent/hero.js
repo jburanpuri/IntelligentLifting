@@ -4,7 +4,7 @@ import React from "react";
 export default function Hero() {
     return (
       <div>
-        <section className="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black">
+        <section className="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-black via-gray-900 to-gray-700">
           <div className="flex-1 flex items-center">
             <div className="text-center mx-auto">
               <h1 className="font-extrabold text-7xl text-primary">Intelligent Lifting</h1>
