@@ -1,15 +1,15 @@
 import React from "react";
-
+import Link from "next/link";
 
 export default function Hero() {
     return (
       <div>
-        <section className="flex flex-col min-h-screen text-white bg-center bg-cover bg-blend-overlay bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-black via-gray-900 to-gray-700">
+        <section className="flex flex-col min-h-screen bg-gradient-to-t from-sky-400 to-sky-200">
           <div className="flex-1 flex items-center">
             <div className="text-center mx-auto">
-              <h1 className="font-extrabold text-7xl text-primary">Intelligent Lifting</h1>
-              <p className="font-light text-3xl mt-5">A place to get the best workout plans, for free.</p>
-              <a className="px-6 py-3 text-xl inline-block rounded-md bg-primary text-white hover:bg-cyan-400 transition-colors mt-10" href>Get Started</a>
+              <h1 className="font-extrabold text-7xl text-black">Intelligent Lifting</h1>
+              <p className="px-4 font-normal text-4xl mt-5">The place to get the best workout plans, for free</p>
+              <Link className="px-6 py-3 text-xl inline-block rounded-md bg-black text-white hover:bg-cyan-400 transition-colors mt-10" href="/plans">See Plans</Link>
             </div>
           </div>
         </section>
