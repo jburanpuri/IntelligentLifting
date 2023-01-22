@@ -34,9 +34,9 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-6/12 flex items-center">
-                <img className="w-20 h-12" src="/logo.png" alt="logo" />
-                <Link className="text-2xl font-semibold text-white" href="/home">INTELLIGENT LIFTING</Link>
+            <div className="w-3/12 flex items-center">
+                
+                <Link href="/home"><img className="w-25 h-20" src="/logo.png" alt="intelligent Lifting" /></Link>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
