@@ -8,7 +8,7 @@ function MobileNav({open, setOpen}) {
                 <Link className="text-lg font-semibold" href="/home">Intelligent Lifting</Link>
             </div>
             <div className="flex flex-col ml-4">
-                <Link className="text-xl font-medium my-4" href="/home" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-xl font-medium my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </Link>
                 <Link className="text-xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -36,7 +36,7 @@ export default function Navbar() {
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-3/12 flex items-center">
                 
-                <Link href="/home"><img className="w-20 h-10" src="/logo.png" alt="intelligent Lifting" /></Link>
+                <Link href="/"><img className="w-20 h-10" src="/logo.png" alt="intelligent Lifting" /></Link>
             </div>
             <div className="w-9/12 flex justify-end items-center">
 
@@ -49,7 +49,7 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex">
-                    <Link href="/home" className="px-4 py:4 text-xl font-normal	text-white">
+                    <Link href="/" className="px-4 py:4 text-xl font-normal	text-white">
                         Home
                     </Link>
                     <Link href="/plans" className="px-4 py:4 text-xl font-normal text-white">
