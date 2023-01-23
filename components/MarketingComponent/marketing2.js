@@ -67,7 +67,7 @@ export default function Marketing2() {
           </div>
         </div>
       </div>
-      <p className="mx-auto mb-4 text-gray-600 sm:text-center lg:max-w-2xl lg:mb-6 md:px-16">
+      <p className="mx-auto mb-4 text-gray-600 sm:text-center lg:max-w-2xl lg:mb-2 md:px-16">
         
       </p>
     </div>

@@ -3,8 +3,9 @@ import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroi
 
 export default function Marketing1() {
   return (
-    <div className="py-16 bg-gray-100">  
-    <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+    <div className="py-16 bg-white">  
+    <hr className="border-gray-400 	stroke-width: 1" />
+    <div className="container m-auto px-6 text-gray-700 md:px-12 xl:px-6 py-10">
       <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div className="md:5/12 lg:w-5/12 ">
           <img src='/Intelligent.png' className="w-full h-full object-cover object-center rounded-lg shadow-lg" alt="hero" />
