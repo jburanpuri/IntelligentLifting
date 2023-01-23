@@ -8,7 +8,7 @@ function MobileNav({open, setOpen}) {
                 <Link className="text-lg font-semibold" href="/">Intelligent Lifting</Link>
             </div>
             <div className="flex flex-col ml-4">
-                <Link className="text-xl font-medium my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </Link>
                 <Link className="text-xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
@@ -49,19 +49,19 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex">
-                    <Link href="/" className="px-4 py:4 text-xl font-normal	text-primary">
+                    <Link href="/" className="px-4 py:4 text-xl font-semibold text-primary">
                         Home
                     </Link>
-                    <Link href="/plans" className="px-4 py:4 text-xl font-normal text-primary">
+                    <Link href="/plans" className="px-4 py:4 text-xl font-semibold text-primary">
                         All Plans
                     </Link>
-                    <Link href="/threeday" className="px-4 py:4 text-xl font-normal text-primary">
+                    <Link href="/threeday" className="px-4 py:4 text-xl font-semibold text-primary">
                         Three Day Plans
                     </Link>
-                    <Link href="/fourday" className="px-4 py:4 text-xl font-normal text-primary">
+                    <Link href="/fourday" className="px-4 py:4 text-xl font-semibold text-primary">
                         Four Day Plans
                     </Link>
-                    <Link href="/fiveday" className="px-4 py:4 text-xl font-normal text-primary">
+                    <Link href="/fiveday" className="px-4 py:4 text-xl font-semibold text-primary">
                         Five Day Plans
                     </Link>
                 </div>
