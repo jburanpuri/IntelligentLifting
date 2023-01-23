@@ -52,7 +52,7 @@ export default function Marketing2() {
             <h6 className="text-4xl font-bold text-deep-purple-accent-400 sm:text-5xl">
               $0
             </h6>
-            <p className="text-center md:text-base">
+            <p className="text-center md:text-base py-2">
             Personal training can cost up to $120 per hour. With Intelligent Lifting, you get a better plan, workout at your own convinience, and keep the money in your pocket.
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function Marketing2() {
             <h6 className="text-4xl font-bold text-deep-purple-accent-400 sm:text-5xl">
               Adaptive
             </h6>
-            <p className="text-center md:text-base">
+            <p className="text-center md:text-base py-2">
              Each exercise goes from Minimum Effective Volume (MEV) to Maximum Recoverable Volume (MRV) to find your Maximum Adaptive Volume (MAV) creating the perfect volume to grow your muscles overtime.
             </p>
           </div>
