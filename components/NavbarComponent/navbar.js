@@ -34,11 +34,11 @@ export default function Navbar() {
     return (
         <nav className="flex filter drop-shadow-md bg-black px-4 py-4 h-20 items-center">
             <MobileNav open={open} setOpen={setOpen}/>
-            <div className="w-3/12 flex items-center">
+            <div className="w-6/12 flex items-center">
                 
-                <Link href="/"><img className="w-20 h-10" src="/logo.png" alt="intelligent Lifting" /></Link>
+                <Link href="/"><img className="w-60 h-50" src="/logo.png" alt="intelligent Lifting" /></Link>
             </div>
-            <div className="w-9/12 flex justify-end items-center">
+            <div className="w-6/12 flex justify-end items-center">
 
                 <div className="z-50 flex relative w-8 h-8 flex-col justify-between items-center md:hidden text-white bg-black rounded-lg" onClick={() => {
                     setOpen(!open)
