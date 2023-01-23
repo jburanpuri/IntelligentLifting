@@ -32,8 +32,15 @@ export default function Marketing2() {
           </span>{' '}
           The best way to train & grow
         </h2>
-        <p className="text-base text-gray-700 md:text-lg ">
-        Intelligent Lifting is proud to present a personalized workout program that is tailored to each individual muscle group's recovery, allowing for optimal muscle hypertrophy and strength gains. This unique approach ensures that every aspect of your training is tailored to your specific body, making it the best way to achieve your goals.
+        <p className="text-lg text-gray-700 md:text-lg ">
+        Introducing Intelligent Lifting - the ultimate solution to simplify your fitness journey. 
+        Our personalized workout program is expertly crafted to adapt to the unique recovery needs of each individual muscle, making our plans more safe and effective.  
+        With our cutting-edge approach, you can be sure that you are training your muscles in the most optimal way. 
+        Experience the difference today with our workout plans.
+
+
+
+
         </p>
       </div>
       <div className="relative w-full p-px mx-auto mb-4 overflow-hidden transition-shadow duration-300 border rounded lg:mb-8 lg:max-w-4xl group hover:shadow-xl">
@@ -44,7 +51,7 @@ export default function Marketing2() {
         <div className="relative flex flex-col items-center h-full py-10 duration-300 bg-white rounded-sm transition-color sm:items-stretch sm:flex-row ">
           <div className="px-12 py-8 text-center">
             <h6 className="text-4xl font-bold text-deep-purple-accent-400 sm:text-5xl">
-              FREE
+              $0
             </h6>
             <p className="text-center md:text-base">
             Personal training can cost up to $120 per hour. With Intelligent Lifting, you get a better plan, workout at your own convinience, and keep the money in your pocket.
@@ -53,10 +60,10 @@ export default function Marketing2() {
           <div className="w-56 h-1 transition duration-300 transform bg-gray-300 rounded-full group-hover:bg-deep-purple-accent-400 group-hover:scale-110 sm:h-auto sm:w-1" />
           <div className="px-12 py-8 text-center">
             <h6 className="text-4xl font-bold text-deep-purple-accent-400 sm:text-5xl">
-              MEV
+              Adaptive
             </h6>
             <p className="text-center md:text-base">
-             Each exercise adapts to your Maximum Effective Volume (MEV) based on your recovery, leading to optimal hypertrophy.
+             Each exercise goes from Minimum Effective Volume (MEV) to Maximum Recoverable Volume (MRV) to find your Maximum Adaptive Volume (MAV) creating the perfect volume to grow your muscles overtime.
             </p>
           </div>
         </div>
