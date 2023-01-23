@@ -29,8 +29,7 @@ export default function Marketing2() {
               />
             </svg>
             
-          </span>{' '}
-          The best way to train & grow
+          </span>{''}The best way to train & grow
         </h2>
         <p className="text-lg text-gray-700 md:text-lg ">
         Introducing Intelligent Lifting - the ultimate solution to simplify your fitness journey. 
