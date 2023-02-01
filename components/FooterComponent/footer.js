@@ -8,11 +8,11 @@ export default function Footer() {
     <span class="text-base text-white sm:text-center">© 2023 <Link href="/home" class="hover:underline">Intelligent Lifting</Link>. All Rights Reserved.
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-white sm:mt-0 text-base">
-        <li>
-            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
+    <li>
+            <Link href="/" class="mr-4 hover:underline md:mr-6">Home</Link>
         </li>
         <li>
-            <Link href="https://github.com/jburanpuri/IntelligentLifting" rel="noreferrer" target="_blank" class="mr-4 hover:underline md:mr-6">GitHub Repository</Link>
+            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
         </li>
     </ul>
 </footer>
