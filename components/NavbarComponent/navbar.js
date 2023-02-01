@@ -14,11 +14,13 @@ function MobileNav({open, setOpen}) {
                 <Link className="text-3xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Plans
                 </Link>
+                <Link className="text-3xl font-normal my-4" href="/learningcenter" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Learning Center
+                </Link>
             </div>  
         </div>
     )
 }
-
 export default function Navbar() {
 
     const [open, setOpen] = useState(false)
@@ -45,6 +47,9 @@ export default function Navbar() {
                     </Link>
                     <Link href="/plans" className="px-4 py:4 text-2xl font-semibold text-primary">
                         Plans
+                    </Link>
+                    <Link href="/learningcenter" className="px-4 py:4 text-2xl font-semibold text-primary">
+                        Learning Center
                     </Link>
                 </div>
             </div>

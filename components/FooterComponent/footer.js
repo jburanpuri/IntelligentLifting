@@ -14,6 +14,9 @@ export default function Footer() {
         <li>
             <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
         </li>
+        <li>
+            <Link href="/learningcenter" class="mr-4 hover:underline md:mr-6 ">Learning Center</Link>
+        </li>
     </ul>
 </footer>
 
