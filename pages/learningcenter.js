@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function Learning() {
   return (
-    <div className="bg-gradient-to-t from-gray-600 via-gray-800 to-black py-20">
+    <div className="bg-gradient-to-t from-gray-600 via-gray-800 to-black">
     <div className="px-6 pt-6 lg:px-8">
    </div>
     <main>
       <div className="px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl py-96 sm:py-96 lg:py-96">
+        <div className="mx-auto max-w-2xl py-40 sm:py-0 lg:py-96">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl">
               Learning Center, Coming Soon
