@@ -15,7 +15,7 @@ function MobileNav({open, setOpen}) {
                 Plans
             </Link>
             <Link className="text-3xl font-normal my-4" href="/custom" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                Custom Plans
+                Coaching
             </Link>
             <Link className="text-3xl font-normal my-4" href="/learningcenter" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Learning Center
@@ -52,7 +52,7 @@ export default function Navbar() {
                         Free Plans
                     </Link>
                     <Link href="/custom" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Custom Plans
+                        Coaching
                     </Link>
                     <Link href="/learningcenter" className="px-4 py:4 text-xl font-semibold text-primary">
                         Learning Center

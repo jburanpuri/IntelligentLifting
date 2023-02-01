@@ -15,7 +15,7 @@ export default function Footer() {
             <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Free Plans</Link>
         </li>
         <li>
-            <Link href="/custom" class="mr-4 hover:underline md:mr-6 ">Custom Plans</Link>
+            <Link href="/custom" class="mr-4 hover:underline md:mr-6 ">Coaching</Link>
         </li>
         <li>
             <Link href="/learningcenter" class="mr-4 hover:underline md:mr-6 ">Learning Center</Link>
