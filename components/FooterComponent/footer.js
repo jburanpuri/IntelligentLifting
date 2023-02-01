@@ -20,6 +20,7 @@ export default function Footer() {
         <li>
             <Link href="/learningcenter" class="mr-4 hover:underline md:mr-6 ">Learning Center</Link>
         </li>
+        
     </ul>
 </footer>
 
