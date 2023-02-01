@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Learning() {
   return (
-    <div className="bg-gradient-to-t from-gray-800 via-gray-900 to-black">
+    <div className="bg-gradient-to-t from-gray-900 to-black">
     <div className="px-6 pt-6 lg:px-8">
    </div>
     <main>

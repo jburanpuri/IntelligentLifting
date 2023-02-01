@@ -6,10 +6,10 @@ import FiveFull from '../components/PlansComponent/FiveDayPlans/fullbody'
 export default function Plans() {
   return (
     <>
-        <div className="bg-gray-900 py-4">
-        <h2 className="px-4 text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-black leading-7 md:leading-10">
-        <span className="font-extrabold text-transparent bg-clip-text text-primary">ALL ROUTINES</span>        </h2>
-        </div>
+    <div className="bg-gradient-to-t from-gray-900 to-black text-center py-52">
+    <h1 className="text-4xl font-bold text-primary">Free Workout Plans</h1>
+    <h1 className="text-3xl font-semibold py-5 text-white">New Plan, Every Week</h1>
+</div>
       <FivePower />
       <FiveFull />
         </>

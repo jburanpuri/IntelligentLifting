@@ -12,7 +12,10 @@ export default function Footer() {
             <Link href="/" class="mr-4 hover:underline md:mr-6">Home</Link>
         </li>
         <li>
-            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
+            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Free Plans</Link>
+        </li>
+        <li>
+            <Link href="/custom" class="mr-4 hover:underline md:mr-6 ">Custom Plans</Link>
         </li>
         <li>
             <Link href="/learningcenter" class="mr-4 hover:underline md:mr-6 ">Learning Center</Link>
