@@ -43,7 +43,7 @@ export default function PowerLifting() {
                     <span className="ml-2 w-0 flex-1 truncate">Five Day Powerbuilding Routine</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a href="https://docs.google.com/spreadsheets/d/1nCH5vzZnDh_IjT96EyHCQ6Vv68knyqcZ/edit?usp=share_link&ouid=110518756502049683097&rtpof=true&sd=true" target="_blank" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="https://docs.google.com/spreadsheets/d/1nCH5vzZnDh_IjT96EyHCQ6Vv68knyqcZ/edit?usp=share_link&ouid=110518756502049683097&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="font-medium text-indigo-600 hover:text-indigo-500">
                       Download
                     </a>
                   </div>

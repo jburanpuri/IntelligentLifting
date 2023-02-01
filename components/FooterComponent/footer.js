@@ -12,7 +12,7 @@ export default function Footer() {
             <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
         </li>
         <li>
-            <Link href="https://github.com/jburanpuri/IntelligentLifting" target="_blank" class="mr-4 hover:underline md:mr-6">GitHub Repository</Link>
+            <Link href="https://github.com/jburanpuri/IntelligentLifting" rel="noreferrer" target="_blank" class="mr-4 hover:underline md:mr-6">GitHub Repository</Link>
         </li>
     </ul>
 </footer>

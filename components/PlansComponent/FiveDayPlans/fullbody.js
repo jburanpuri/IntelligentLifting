@@ -40,7 +40,7 @@ export default function PowerLifting() {
                     <span className="ml-2 w-0 flex-1 truncate">Five Day Hypertrophy Routine</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a href="" target="_blank" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="" target="_blank" rel="noreferrer" className="font-medium text-indigo-600 hover:text-indigo-500">
                       Coming Soon
                     </a>
                   </div>
