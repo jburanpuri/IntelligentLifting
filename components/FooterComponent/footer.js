@@ -9,16 +9,7 @@ export default function Footer() {
     </span>
     <ul class="flex flex-wrap items-center mt-3 text-white sm:mt-0 text-base">
         <li>
-            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">All Plans</Link>
-        </li>
-        <li>
-            <Link href="/threeday" class="mr-4 hover:underline md:mr-6">Three Day Plans</Link>
-        </li>
-        <li>
-            <Link href="/fourday" class="mr-4 hover:underline md:mr-6">Four Day Plans</Link>
-        </li>
-        <li>
-            <Link href="/fiveday" class="mr-4 hover:underline md:mr-6">Five Day Plans</Link>
+            <Link href="/plans" class="mr-4 hover:underline md:mr-6 ">Plans</Link>
         </li>
         <li>
             <Link href="https://github.com/jburanpuri/IntelligentLifting" target="_blank" class="mr-4 hover:underline md:mr-6">GitHub Repository</Link>

@@ -8,20 +8,11 @@ function MobileNav({open, setOpen}) {
                 <Link className="text-lg font-semibold" href="/">Intelligent Lifting</Link>
             </div>
             <div className="flex flex-col ml-4">
-                <Link className="text-xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                <Link className="text-3xl font-normal my-4" href="/" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Home
                 </Link>
-                <Link className="text-xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    All Plans
-                </Link>
-                <Link className="text-xl font-normal my-4" href="/threeday" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Three Day Plans
-                </Link>
-                <Link className="text-xl font-normal my-4" href="/fourday" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Four Day Plans
-                </Link>
-                <Link className="text-xl font-normal my-4" href="/fiveday" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                    Five Day Plans
+                <Link className="text-3xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Plans
                 </Link>
             </div>  
         </div>
@@ -49,20 +40,11 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex">
-                    <Link href="/" className="px-4 py:4 text-xl font-semibold text-primary">
+                    <Link href="/" className="px-4 py:4 text-2xl font-semibold text-primary">
                         Home
                     </Link>
-                    <Link href="/plans" className="px-4 py:4 text-xl font-semibold text-primary">
-                        All Plans
-                    </Link>
-                    <Link href="/threeday" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Three Day Plans
-                    </Link>
-                    <Link href="/fourday" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Four Day Plans
-                    </Link>
-                    <Link href="/fiveday" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Five Day Plans
+                    <Link href="/plans" className="px-4 py:4 text-2xl font-semibold text-primary">
+                        Plans
                     </Link>
                 </div>
             </div>
