@@ -8,7 +8,7 @@ export default function Marketing1() {
     <div className="container m-auto px-6 text-white md:px-12 xl:px-6 py-10">
       <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
         <div className="md:5/12 lg:w-5/12 ">
-          <Image src='/Intelligent.png' className="w-full h-full object-cover object-center rounded-lg shadow-lg" alt="hero" />
+          <img src='/Intelligent.png' className="w-full h-full object-cover object-center rounded-lg shadow-lg" alt="hero" />
         </div>
         <div className="md:7/12 lg:w-6/12">
           <h2 className="text-2xl text-white font-bold md:text-4xl">How Our Plans Are Developed</h2>

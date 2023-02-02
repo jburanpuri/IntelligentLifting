@@ -33,7 +33,7 @@ export default function Navbar() {
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-6/12 flex items-center">
                 
-                <Link href="/"><Image className="w-60 h-50" src="/logo.png" alt="intelligent Lifting" /></Link>
+                <Link href="/"><img className="w-60 h-50" src="/logo.png" alt="intelligent Lifting" /></Link>
             </div>
             <div className="w-6/12 flex justify-end items-center">
 
