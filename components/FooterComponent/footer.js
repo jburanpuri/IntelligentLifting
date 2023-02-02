@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="w-full lg:w-6/12 px-4">
           <h4 className="text-xl fonat-semibold text-white">Any feedback or questions? Contact me on Instagram!</h4>
           <h5 className="text-lg mt-0 mb-2 text-white py-3">
-            We respond 1-2 business days.
+            We respond within 1-2 business days.
           </h5>
           <div className="mt-6 lg:mb-0 mb-6">
             <button className="bg-black text-lightBlue-400 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
