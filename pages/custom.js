@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 
 export default function Custom() {
@@ -16,7 +17,7 @@ export default function Custom() {
 </a>
     </div>
     <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-      <img src="/custom.png" alt="mockup" className="rounded-xl" />
+      <Image src="/custom.png" alt="mockup" className="rounded-xl" />
     </div>                
   </div>
 </section>
@@ -92,7 +93,7 @@ export default function Custom() {
 </div>                
 		<div className="lg:w-1/2 xl:w-1/2 ">
 			<div className="flex items-center justify-center p-4 md:p-8 lg:p-12">
-				<img src="/transformation.png" alt="" className="rounded-lg shadow-lg bg-gray-500 sm:min-h-96" />
+				<Image src="/transformation.png" alt="" className="rounded-lg shadow-lg bg-gray-500 sm:min-h-96" />
 			</div>
 		</div>
 	</div>
