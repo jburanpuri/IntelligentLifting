@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function MobileNav({open, setOpen}) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
+        <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
         <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> 
             <Link className="text-lg font-semibold" href="/">Intelligent Lifting</Link>
         </div>
@@ -15,7 +15,7 @@ function MobileNav({open, setOpen}) {
                 Plans
             </Link>
             <Link className="text-3xl font-normal my-4" href="/custom" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                Custom Plans
+                Coaching
             </Link>
             <Link className="text-3xl font-normal my-4" href="/learningcenter" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Learning Center
@@ -52,7 +52,7 @@ export default function Navbar() {
                         Free Plans
                     </Link>
                     <Link href="/custom" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Custom Plans
+                        Coaching
                     </Link>
                     <Link href="/learningcenter" className="px-4 py:4 text-xl font-semibold text-primary">
                         Learning Center
