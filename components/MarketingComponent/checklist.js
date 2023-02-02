@@ -1,7 +1,3 @@
-import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
-import Image from 'next/Image'
-
-
 export default function Marketing1() {
   return (
     <div className="py-16 bg-gray-900">  
