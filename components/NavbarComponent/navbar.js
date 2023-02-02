@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function MobileNav({open, setOpen}) {
     return (
-        <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md `}>
+        <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
         <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20"> 
             <Link className="text-lg font-semibold" href="/">Intelligent Lifting</Link>
         </div>
