@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
+
 export default function Custom() {
-  <script src="https://js.stripe.com/v3/pricing-table.js"></script>
   return (
     <div className="bg-gray-900">
       <section className="bg-white bg-gradient-to-t from-gray-900 to-black">
@@ -163,9 +163,10 @@ export default function Custom() {
   </div>
 </section>
 <div id="buy" className="py-5">
-<stripe-pricing-table pricing-table-id="prctbl_1MWtIIGDnKaPJ8BWmNXI4lKo"
-publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
-</stripe-pricing-table>
+<script async await src="https://js.stripe.com/v3/pricing-table.js"></script>
+      <stripe-pricing-table pricing-table-id="prctbl_1MWtIIGDnKaPJ8BWmNXI4lKo"
+      publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
+      </stripe-pricing-table>
         </div>
 </div>
     </div>
