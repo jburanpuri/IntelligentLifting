@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Script from 'next/script';
 
 export default function Custom() {
   return (
@@ -163,10 +163,10 @@ export default function Custom() {
   </div>
 </section>
 <div id="buy" className="py-5">
-<script async await src="https://js.stripe.com/v3/pricing-table.js"></script>
-      <stripe-pricing-table pricing-table-id="prctbl_1MWtIIGDnKaPJ8BWmNXI4lKo"
-      publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
-      </stripe-pricing-table>
+<Script async src="https://js.stripe.com/v3/pricing-table.js"></Script>
+<stripe-pricing-table pricing-table-id="prctbl_1MWtIIGDnKaPJ8BWmNXI4lKo"
+publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
+</stripe-pricing-table>
         </div>
 </div>
     </div>
