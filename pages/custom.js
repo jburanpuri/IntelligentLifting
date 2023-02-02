@@ -150,7 +150,7 @@ export default function Custom() {
               <div className="order-1 w-5/12" />
               <div className="order-1  w-5/12 px-1 py-4">
                 <p className="mb-3 text-base text-primary">Within Six Months</p>
-                <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">Insane Gains</h4>
+                <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">Bigger and Stronger</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                   If you don't make progress with your plan within 6 months, we will refund you 100% of your money.
                 </p>
