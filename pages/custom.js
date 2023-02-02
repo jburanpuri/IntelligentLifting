@@ -76,8 +76,8 @@ export default function Custom() {
 				</svg>
       <div className="space-y-2">
 					<p className="text-lg font-medium leading-snug">Vegetarian and Vegan Meal Plans</p>
-					<p className="leading-snug">Most places provide meal plans which don't work for vegetarians! 
-          They only contain animal protein, whereas our meal plans will be perfect for your needs! Pasta, tofu, Indian food and more meals!</p>
+					<p className="leading-snug">Most places provide meal plans which don't work for vegetarians.
+          Most only contain animal protein, whereas our meal plans will be perfect for your vegetarians and vegans. We include delicious food like pasta, stir fry with tofu, and Indian food</p>
 				</div>
 		</div>
     <div className="flex space-x-2 sm:space-x-4">
@@ -106,7 +106,7 @@ export default function Custom() {
         <p className="ml-2 text-primary uppercase tracking-loose">Approximate Timeline</p>
         <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Great Products Delivered Fast</p>
         <p className="text-sm md:text-base text-gray-50 mb-4">
-          This is an estimated timeline of when you can expect your custom workout plan to be ready.
+          This is an estimated timeline of when you can expect your custom workout plan to be ready
         </p>
 
       </div>
@@ -121,7 +121,7 @@ export default function Custom() {
                 <p className="mb-3 text-base text-primary">Within 48 Hours</p>
                 <h4 className="mb-3 font-bold text-lg md:text-2xl">Questionaire Email</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                    You will receive an email with a link to a google form. This google form will ask you everything to create your ideal workout plan.
+                    You will receive an email with a link to a google form. This google form will ask you everything to create your ideal workout plan
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function Custom() {
                 <h4 className="mb-3 font-bold text-lg md:text-2xl">Prototype Plan</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                     After you fill the google form, we will create a prototype workout plan for you. This will be sent to you via email. 
-                    This plan will be our starting point, we will make changes to it based on your feedback.
+                    This plan will be our starting point, we will make changes to it based on your feedback
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ export default function Custom() {
                 <p className="mb-3 text-base text-primary">Within Six Months</p>
                 <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">Bigger and Stronger</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                  If you don't make progress with your plan within 6 months, we will refund you 100% of your money.
+                  You will be bigger and stronger than you ever thought possible
                 </p>
               </div>
             </div>

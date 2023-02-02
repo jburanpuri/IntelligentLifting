@@ -27,16 +27,16 @@ export default function Footer() {
               <span className="block uppercase text-white text-lg font-semibold mb-2">Useful Links</span>
               <ul className="list-unstyled">
                 <li>
-                  <a className="text-white hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/">Home</a>
+                  <Link className="text-white font-semibold block pb-2 text-lg" href="/">Home</Link>
                 </li>
                 <li>
-                  <a className="text-white hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/plans">Free Plans</a>
+                  <Link className="text-white font-semibold block pb-2 text-lg" href="/plans">Free Plans</Link>
                 </li>
                 <li>
-                  <a className="text-white hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/custom">Personal Coaching</a>
+                  <Link className="text-white font-semibold block pb-2 text-lg" href="/custom">Personal Coaching</Link>
                 </li>
                 <li>
-                  <a className="text-white hover:text-blueGray-800 font-semibold block pb-2 text-lg" href="/learningcenter">Learning Center</a>
+                  <Link className="text-white font-semibold block pb-2 text-lg" href="/learningcenter">Learning Center</Link>
                 </li>
               </ul>
             </div>
@@ -47,8 +47,8 @@ export default function Footer() {
       <div className="flex flex-wrap items-center md:justify-between justify-center">
         <div className="w-full md:w-4/12 px-4 mx-auto text-center">
           <div className="text-lg text-white font-semibold py-1">
-            Copyright © <span id="get-current-year">2023</span><a href="/" className="text-white hover:text-primary"> Intelligent Lifting by 
-            </a><a href="/" className="text-white hover:text-primary"> Sonu Lifts</a>.
+            Copyright © <span id="get-current-year">2023</span><Link href="/" className="text-white hover:text-primary"> Intelligent Lifting by 
+            </Link><Link href="/" className="text-white hover:text-primary"> Sonu Lifts</Link>.
           </div>
         </div>
       </div>
