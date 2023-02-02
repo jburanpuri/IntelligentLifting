@@ -61,9 +61,6 @@ export default function Custom() {
 					<p className="leading-snug">Natural lifters need to dial in sleep, training, and diet. We can help you do all three with our complete wellness plan</p>
 				</div>
       </div>
-
-
-
       <div className="flex space-x-2 sm:space-x-4">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-shrink-0 w-6 h-6">
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
@@ -88,7 +85,7 @@ export default function Custom() {
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
 				</svg>
     <div className="space-y-2">
-					<p className="text-lg font-medium leading-snug">Rivisions! Rivisions! Rivisions!</p>
+					<p className="text-lg font-medium leading-snug">Revisions! Revisions! Revisions!</p>
 					<p className="leading-snug">Give me feedback on what you like! We will work together to make a routine that works for you</p>
 				</div>
 		</div> 
@@ -168,9 +165,9 @@ export default function Custom() {
 </div>
         <div id="buy" className="py-5">
         <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-        <stripe-pricing-table pricing-table-id="prctbl_1MWoEcGDnKaPJ8BWon1nJCNA"
-        publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
-        </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1MWoEcGDnKaPJ8BWon1nJCNA"
+publishable-key="pk_live_51L8ZmeGDnKaPJ8BW6K6t4gny0fXqSuQw6f6ODSZw0j1Cb4lpNKJaf67X0D4MkJkQwuVJYo8XT1V4W1udNmoYzZxB003CXbcPWB">
+</stripe-pricing-table>
         </div>
     </div>
     );
