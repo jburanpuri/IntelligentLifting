@@ -35,9 +35,6 @@ export default function Footer() {
                 <li>
                   <Link className="text-white font-semibold block pb-2 text-normal" href="/custom">Personal Coaching</Link>
                 </li>
-                <li>
-                  <Link className="text-white font-semibold block pb-2 text-normal" href="/learningcenter">Learning Center</Link>
-                </li>
               </ul>
             </div>
           </div>

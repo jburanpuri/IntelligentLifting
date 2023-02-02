@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-      <div>
-<section className="flex flex-col min-h-screen bg-gradient-to-t from-gray-900 to-black">
+      <div className="bg-gradient-to-t from-gray-900 to-black">
+<section className="flex flex-col min-h-screen">
             <div className="flex-1 flex items-center">
             <div className="text-center mx-auto">
               <h1 className="font-extrabold text-7xl text-primary">Intelligent Lifting</h1>
