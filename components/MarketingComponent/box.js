@@ -55,7 +55,8 @@ export default function Marketing2() {
               $0
             </h6>
             <p className="text-center md:text-base py-2 text-white">
-            Personal training can cost up to $120 per hour. With Intelligent Lifting, you get a better plan, workout at your own convinience, and keep the money in your pocket.
+            Personal training can cost up to $120 per hour. With Intelligent Lifting, you get a better plan, workout at your own convinience, and keep the money in your pocket. 
+            Our coaching is completely optional!
             </p>
           </div>
           <div className="w-56 h-1 transition duration-300 transform bg-white rounded-full group-hover:bg-deep-purple-accent-400 group-hover:scale-110 sm:h-auto sm:w-1" />
