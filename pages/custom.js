@@ -1,9 +1,24 @@
 import React, { useState } from 'react';
 import Script from 'next/script';
+import Head from 'next/head';
 
 export default function Custom() {
   return (
     <div className="bg-gray-900">
+    <Head>
+        <title>
+         Personal Coaching and Wellness Plans
+        </title>
+        <meta
+          name="description"
+          content="Looking to improve your quality of life and physical strength and size? Look no further! 
+          Our tailored fitness solutions are specifically designed for you, using your fitness profile. 
+          We offer monthly consultations for coaching, as well as one-time payment wellness plans that include everything you need for optimal wellness - cardio, training, supplements, diet, sleep optimization and more! 
+          And the best part? Our prices are unbeatable compared to our competitors. 
+          Get started today and see the results for yourself! "
+          key="desc"
+        />
+      </Head>
       <section className="bg-white bg-gradient-to-t from-gray-900 to-black">
   <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
