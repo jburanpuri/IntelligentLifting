@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import FivePower from '../components/PlansComponent/FiveDayPlans/powerlifting' 
-import FiveFull from '../components/PlansComponent/FiveDayPlans/fullbody'
+import FourFull from '../components/PlansComponent/FourDayPlans/fullbody'
 import Head from 'next/head';
 
 export default function Plans() {
@@ -27,7 +27,7 @@ export default function Plans() {
     <h1 className="text-3xl font-semibold py-5 text-white">New Plan, Every Week</h1>
 </div>
       <FivePower />
-      <FiveFull />
+      <FourFull />
         </>
 
   )
