@@ -22,7 +22,7 @@ export default function Plans() {
           key="desc"
         />
       </Head>
-    <div className="bg-gradient-to-t from-gray-900 to-black text-center py-52">
+    <div className="bg-gradient-to-t from-gray-900 to-black text-center py-36">
     <h1 className="text-4xl font-bold text-primary">Free Workout Plans</h1>
     <h1 className="text-3xl font-semibold py-5 text-white">New Plan, Every Week</h1>
 </div>
