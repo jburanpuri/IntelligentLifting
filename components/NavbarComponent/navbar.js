@@ -20,6 +20,9 @@ function MobileNav({open, setOpen}) {
             <Link className="text-3xl font-normal my-4" href="/desc" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Plan Instructions
             </Link>
+            <Link className="text-3xl font-normal my-4" href="./download.pdf" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                Workout Guide
+            </Link>
         </div>  
     </div>
     )
@@ -56,6 +59,9 @@ export default function Navbar() {
                     </Link>
                     <Link href="/desc" className="px-4 py:4 text-xl font-semibold text-primary">
                         Plan Instructions
+                    </Link>
+                    <Link href="./download.pdf" target='_blank' className="px-4 py:4 text-xl font-semibold text-primary">
+                        Workout Guide
                     </Link>
                 </div>
             </div>
