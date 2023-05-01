@@ -20,7 +20,7 @@ function MobileNav({open, setOpen}) {
             <Link className="text-3xl font-normal my-4" href="/desc" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Plan Instructions
             </Link>
-            <Link className="text-3xl font-normal my-4" href="./download.pdf" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+            <Link className="text-3xl font-normal my-4" href="https://www.etsy.com/ca/listing/1470866943/the-ultimate-workout-diet-guide?ref=listings_manager_grid" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Workout Guide
             </Link>
         </div>  
@@ -60,7 +60,7 @@ export default function Navbar() {
                     <Link href="/desc" className="px-4 py:4 text-xl font-semibold text-primary">
                         Plan Instructions
                     </Link>
-                    <Link href="./download.pdf" target='_blank' className="px-4 py:4 text-xl font-semibold text-primary">
+                    <Link href="https://www.etsy.com/ca/listing/1470866943/the-ultimate-workout-diet-guide?ref=listings_manager_grid" target='_blank' className="px-4 py:4 text-xl font-semibold text-primary">
                         Workout Guide
                     </Link>
                 </div>
