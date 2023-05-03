@@ -29,8 +29,8 @@ export default function Custom() {
       </div>
       <div className="bg-gray-900">
       <CoachingInfo />
-      <Transformation />
       <Checklist />
+      <Transformation />
       <Timeline />
       </div>
 
