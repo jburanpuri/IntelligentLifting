@@ -12,7 +12,7 @@ const Strength = () => {
                     
                     <h3 className="text-3xl font-semibold text-white mt-5">Best Strength and Size Gains</h3>
                     <p className="mt-4 text-lg leading-relaxed text-white">
-                    achieve incredible strength gains in record time by customizing your workout plan to fit your unique recovery needs. 
+                    Achieve incredible strength gains in record time by customizing your workout plan to fit your unique recovery needs. 
                     With our expert guidance, you'll optimize every aspect of your training regimen, including sleep, diet, and exercise, to help you push past your limits and achieve your fitness goals like never before. 
                     Get ready to unleash your inner strength and become the best version of yourself with our tailored approach to fitness.
 
