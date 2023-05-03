@@ -5,6 +5,7 @@ import Checklist from '../components/CoachingComponent/checklist';
 import Timeline from '../components/CoachingComponent/timeline';
 import Payments from '../components/CoachingComponent/payments';
 import CoachingInfo from '../components/CoachingComponent/coachingInfo';
+import Transformation from '../components/CoachingComponent/transformation';
 
 export default function Custom() {
   return (
@@ -27,8 +28,9 @@ export default function Custom() {
       <Description />
       </div>
       <div className="bg-gray-900">
-      <Checklist />
       <CoachingInfo />
+      <Transformation />
+      <Checklist />
       <Timeline />
       </div>
 
