@@ -59,7 +59,7 @@ const Checklist = () => {
       <div className="space-y-2">
 					<p className="text-lg font-medium leading-snug">Vegetarian and Vegan Meal Plans</p>
 					<p className="leading-snug">Most places provide meal plans which don't work for vegetarians.
-          Most only contain animal protein, whereas our meal plans will be perfect for your vegetarians and vegans. We include delicious food like pasta, stir fry with tofu, and Indian food</p>
+          Most only contain animal protein, whereas our meal plans will be perfect for vegetarians and vegans. We include delicious food like pasta, stir fry with tofu, and Indian food</p>
 				</div>
 		</div>
     <div className="flex space-x-2 sm:space-x-4">
@@ -68,7 +68,7 @@ const Checklist = () => {
 				</svg>
     <div className="space-y-2">
 					<p className="text-lg font-medium leading-snug">Revisions! Revisions! Revisions!</p>
-					<p className="leading-snug">Give me feedback on what you like! We will work together to make a routine that works for you</p>
+					<p className="leading-snug">Give us your preferences! We will work together to make a routine that works for you</p>
 				</div>
 		</div> 
 </div>                
