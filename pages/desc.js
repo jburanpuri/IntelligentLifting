@@ -3,7 +3,7 @@ import react from 'react'
 export default function desc() {
     return (
         <div>
-<div className="bg-gradient-to-t from-gray-900 to-black text-center py-36">
+<div className="bg-black text-center py-36">
     <h1 className="text-4xl font-bold text-primary">Instructions and Advantages of Our Free Plans</h1>
     <h2 className="text-xl font-semibold py-5 text-white px-10">Starting a new gym plan can be challenging for beginners. <br></br>
     However, on this page, I will not only explain how to use the plan effectively but also demonstrate why it surpasses anything currently available on the market.</h2>
