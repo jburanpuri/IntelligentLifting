@@ -74,7 +74,7 @@ const Checklist = () => {
 </div>                
 		<div className="lg:w-1/2 xl:w-1/2 ">
 			<div className="flex items-center justify-center p-4 md:p-8 lg:p-12">
-				<img src="/transformation.png" alt="" className="rounded-lg shadow-lg bg-gray-500 sm:min-h-96" />
+				<img src="/personal.png" alt="" className="rounded-lg shadow-lg bg-gray-500 sm:min-h-96" />
 			</div>
 		</div>
 	</div>
