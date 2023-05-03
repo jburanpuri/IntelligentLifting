@@ -10,9 +10,11 @@ const Limited = () => {
                 <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                     <div className="md:pr-12">
                     
-                    <h3 className="text-3xl font-semibold text-white mt-5">Limited Spots For Best Experience</h3>
+                    <h3 className="text-3xl font-semibold text-white mt-5">Limited Spots For The Best Experience</h3>
                     <p className="mt-4 text-lg leading-relaxed text-white">
-                        We only take on a limited amount of clients at a time to ensure that each client gets the best experience possible. We want to make sure that we can give each client the attention they deserve.
+                    We have a limited number of client spots available at any given time. 
+                    This allows us to dedicate ample time and resources to each individual client, ensuring that their needs are met with the utmost care and attention to detail. 
+                    Our commitment to quality over quantity is what sets us apart, and we take great pride in the level of service we provide to our esteemed clients.
                     </p>
                     <ul className="list-none mt-6">
                         <li className="py-2">
@@ -22,7 +24,7 @@ const Limited = () => {
                             </div>
                             <div>
                             <h4 className="text-white">
-                                Ask us questions any time
+                                Limited spots for the best experience
                             </h4>
                             </div>
                         </div>

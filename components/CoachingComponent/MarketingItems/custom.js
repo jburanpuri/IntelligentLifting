@@ -12,7 +12,7 @@ const Custom = () => {
                     
                     <h3 className="text-3xl font-semibold text-white mt-5">Fully Customized</h3>
                     <p className="mt-4 text-lg leading-relaxed text-white">
-                    At the core of my coaching philosophy lies the belief that each individual is unique and deserves a personalized approach. 
+                    At the core of our coaching philosophy lies the belief that each individual is unique and deserves a personalized approach. 
                     That's why we don't offer plans that are recycled from client to client. 
                     Instead, we take the time to truly understand each person's needs, goals, and challenges, and craft a plan that is perfectly tailored to their unique situation. 
                     With us, you can be confident that you're receiving a one-of-a-kind coaching experience that is truly designed just for you.
