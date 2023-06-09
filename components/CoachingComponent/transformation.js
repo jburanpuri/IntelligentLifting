@@ -2,12 +2,9 @@ import React from 'react'
 
 const title = 'My Transformation'
 const photos = [
-    './transformation/1.png',
     './transformation/2.png',
     './transformation/3.png',
     './transformation/4.png',
-    './transformation/5.png',
-    './transformation/6.png'
 ]
 
 
