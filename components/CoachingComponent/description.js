@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Description = () => {
     return (
@@ -21,7 +22,12 @@ Join us today and let's work together to achieve your desired level of fitness a
       </a>
           </div>
           <div className="hidden lg:mt-0 lg:col-span-1 lg:flex">
-            <img src="/custom.png" alt="mockup" className="rounded-xl h-auto w-48 lg:w-auto" />
+            <Image 
+            src="/custom.png" 
+            width={1000}
+            height={1000}
+            alt="mockup"
+            className="rounded-xl h-auto w-48 lg:w-auto" />
           </div>                
         </div>
       </section>

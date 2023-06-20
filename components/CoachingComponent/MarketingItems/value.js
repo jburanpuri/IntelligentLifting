@@ -1,11 +1,18 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Value = () => {
     return (
         <section className="relative pt-12 bg-blueGray-50 py-20">
                 <div className="items-center flex flex-wrap">
                 <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-                    <img alt="..." className="max-w-full rounded-lg shadow-lg" src="./coaching/1.png" />
+                <Image 
+                        alt="Insane Value" 
+                        className="max-w-full rounded-lg shadow-lg" 
+                        src="/coaching/1.png" 
+                        width={800}
+                        height={800}
+                    />
                 </div>
                 <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                     <div className="md:pr-12">

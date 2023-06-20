@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 function MobileNav({open, setOpen}) {
     return (
@@ -27,6 +29,7 @@ function MobileNav({open, setOpen}) {
     </div>
     )
 }
+
 export default function Navbar() {
 
     const [open, setOpen] = useState(false)
@@ -35,7 +38,12 @@ export default function Navbar() {
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="w-6/12 flex items-center">
                 
-                <Link href="/"><img className="w-60 h-50" src="/logo.png" alt="intelligent Lifting" /></Link>
+            <Link href="/"><div className=" " >
+                    <Image 
+                    src="/logo.png" 
+                    width={200}
+                    height={50}
+                    alt="intelligent Lifting" /></div></Link>
             </div>
             <div className="w-6/12 flex justify-end items-center">
 

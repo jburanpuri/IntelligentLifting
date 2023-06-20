@@ -1,4 +1,5 @@
 import react from 'react'
+import Image from 'next/image'
 
 export default function desc() {
     return (
@@ -13,7 +14,13 @@ export default function desc() {
   <section className="relative pt-12 bg-blueGray-50 py-20">
     <div className="items-center flex flex-wrap">
       <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <img alt="..." className="max-w-full rounded-lg shadow-lg" src="/exercise.png" />
+        <Image 
+          alt="desc" 
+          className="max-w-full rounded-lg shadow-lg" 
+          src="/exercise.png" 
+          width={800}
+          height={800}
+        />
       </div>
       <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div className="md:pr-12">
@@ -100,7 +107,13 @@ export default function desc() {
   <section className="relative pt-12 bg-blueGray-50 py-20">
     <div className="items-center flex flex-wrap">
       <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <img alt="..." className="max-w-full rounded-lg shadow-lg" src="/onerm.png" />
+        <Image 
+          alt="desc" 
+          className="max-w-full rounded-lg shadow-lg" 
+          src="/onerm.png"
+          width={800}
+          height={800}        
+        />
       </div>
       <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div className="md:pr-12">
@@ -122,7 +135,13 @@ export default function desc() {
   <section className="relative pt-12 bg-blueGray-50 py-20">
     <div className="items-center flex flex-wrap">
       <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <img alt="..." className="max-w-full rounded-lg shadow-lg" src="/rating.png" />
+        <Image 
+            alt="desc" 
+            className="max-w-full rounded-lg shadow-lg" 
+            src="/rating.png"
+            width={80}
+            height={80}            
+        />
       </div>
       <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div className="md:pr-12">
@@ -188,7 +207,12 @@ export default function desc() {
   <section className="relative pt-12 bg-blueGray-50 py-20">
     <div className="items-center flex flex-wrap">
       <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-        <img alt="..." className="max-w-full rounded-lg shadow-lg" src="/visual.png" />
+        <Image 
+          alt="desc" 
+          width={1000}
+          height={1000}
+          className="max-w-full rounded-lg shadow-lg" 
+          src="/visual.png" />
       </div>
       <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
         <div className="md:pr-12">

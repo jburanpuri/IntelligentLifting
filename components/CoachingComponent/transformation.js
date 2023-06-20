@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image'
 
 const title = 'My Transformation'
 const photos = [
-    './transformation/2.png',
-    './transformation/3.png',
-    './transformation/4.png',
+    '/transformation/2.png',
+    '/transformation/3.png',
+    '/transformation/4.png',
 ]
 
 
@@ -19,9 +20,11 @@ const Transformation = () => {
               key={index}
               className="w-full bg-gray-900 flex items-center justify-center"
             >
-              <img
+              <Image
                 src={photo}
-                alt={`Photo ${index}`}
+                alt={"Transformation Photos"}
+                width={500}
+                height={500}
                 className="w-auto h-auto"
               />
             </div>
