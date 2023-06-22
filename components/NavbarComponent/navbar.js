@@ -22,11 +22,11 @@ function MobileNav({open, setOpen}) {
             <Link className="text-3xl font-normal my-4" href="/desc" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 Plan Instructions
             </Link>
-            <Link className="text-3xl font-normal my-4" href="https://www.etsy.com/ca/listing/1470866943/the-ultimate-workout-diet-guide?ref=listings_manager_grid" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
-                Workout Guide
-            </Link>
-            <Link className="text-3xl font-normal my-4" href="/aichat" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+            <Link className="text-3xl font-normal my-4" href="/aichat" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                 AI Chat
+            </Link>
+            <Link className="text-3xl font-normal my-4" href="https://www.etsy.com/ca/listing/1470866943/the-ultimate-workout-diet-guide?ref=listings_manager_grid" target='_blank' onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                Workout eBook
             </Link>
         </div>  
     </div>
@@ -75,7 +75,7 @@ export default function Navbar() {
                         AI Chat
                     </Link>
                     <Link href="https://www.etsy.com/ca/listing/1470866943/the-ultimate-workout-diet-guide?ref=listings_manager_grid" target='_blank' className="px-4 py:4 text-xl font-semibold text-primary">
-                        Workout Guide
+                        Workout eBook
                     </Link>
                 </div>
             </div>
