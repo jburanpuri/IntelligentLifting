@@ -12,12 +12,10 @@ export default function Aichat() {
                     Coming Soon 
                 </h2>
                 <h2 className="py-3 text-2xl justify-center w-full lg:px-20 text-center text-white">
-                    Our goal is to launch a chatbot dedicated to fitness and nutrition, which will utilize the OpenAI API with langchain to provide strucutred well-written responses.
-                    Using combination of research studies, internet resources, and information from my 19-page ebook, this chatbot aims to be your go-to resource for all things related to fitness. 
-                    Stay tuned for its release and get ready to embark on a transformative journey towards a healthier lifestyle.
+                    AI Chatbot is ready. Although, to provide a better user experience, we are currently working on authentication to avoid spam. We want to make sure the OpenAI API credits are used responsibly. 
                 </h2>
                 <h2 className="py-3 text-4xl justify-center w-full lg:px-20 text-center text-white">
-                    Stay Tuned!
+                    Thanks - Janmejay
                 </h2>
 
                 </main>
