@@ -25,7 +25,8 @@
     "react-intersection-observer": "^9.4.1",
     "react-router-dom": "^6.6.2",
     "react-spring": "^9.6.1",
-    "react-use": "^17.4.0"
+    "react-use": "^17.4.0",
+    "sharp": "^0.32.4"
   },
   "description": "The goal of this project is to bring afforable workout plans to everyone. The goal is to use **AWS Amplify** to host the website, **DynamoDB** to store the workout plans, **AWS Lambda** and **API Gateway** to handle the backend, and **Stripe** to handle payments.",
   "main": "next.config.js",
