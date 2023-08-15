@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/aichat": "pages/aichat.html",
+  "/api/hello": "pages/api/hello.js",
+  "/custom": "pages/custom.html",
+  "/desc": "pages/desc.html",
+  "/fiveday": "pages/fiveday.html",
+  "/fourday": "pages/fourday.html",
+  "/": "pages/index.html",
+  "/plans": "pages/plans.html",
+  "/threeday": "pages/threeday.html",
+  "/404": "pages/404.html"
+}
