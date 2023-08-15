@@ -12,10 +12,10 @@ export default function Aichat() {
                     Coming Soon 
                 </h2>
                 <h2 className="py-3 text-2xl justify-center w-full lg:px-20 text-center text-white">
-                    AI Chatbot is ready. Although, to provide a better user experience, we are currently working on authentication to avoid spam. We want to make sure the OpenAI API credits are used responsibly. 
+                    World's best AI Fitness Chatbot. Info from the best fitness studies and experts. Stay tuned! Our world class UI and authentication system is currently being developed.
                 </h2>
                 <h2 className="py-3 text-4xl justify-center w-full lg:px-20 text-center text-white">
-                    Thanks - Janmejay
+                    - Janmejay
                 </h2>
 
                 </main>
