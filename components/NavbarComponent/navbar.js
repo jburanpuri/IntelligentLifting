@@ -7,12 +7,12 @@ function MobileNav({ open, setOpen }) {
     return (
         <div className={`absolute top-0 left-0 h-screen w-screen bg-white transform ${open ? "-translate-x-0" : "-translate-x-full"} transition-transform duration-300 ease-in-out filter drop-shadow-md`}>
             <div className="flex items-center justify-center filter drop-shadow-md bg-white h-20">
-                <Link className="text-lg font-semibold" href="/">Intelligent Lifting</Link>
-            </div>
-            <div className="flex flex-col ml-4">
-                <Link className="text-3xl font-normal my-4" href="/" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
-                    Home
+                <Link href="/">
+                    <img src="path_to_your_image.jpg" alt="Intelligent Lifting Logo" />
                 </Link>
+            </div>
+
+            <div className="flex flex-col ml-4">
                 <Link className="text-3xl font-normal my-4" href="/plans" onClick={() => setTimeout(() => { setOpen(!open) }, 100)}>
                     Plans
                 </Link>
@@ -56,9 +56,6 @@ export default function Navbar() {
                 </div>
 
                 <div className="hidden md:flex">
-                    <Link href="/" className="px-4 py:4 text-xl font-semibold text-primary">
-                        Home
-                    </Link>
                     <Link href="/plans" className="px-4 py:4 text-xl font-semibold text-primary">
                         Free Plans
                     </Link>
