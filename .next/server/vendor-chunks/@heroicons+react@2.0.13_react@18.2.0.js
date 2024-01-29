@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@heroicons+react@2.0.13_react@18.2.0";
+exports.ids = ["vendor-chunks/@heroicons+react@2.0.13_react@18.2.0"];
+exports.modules = {
+
+/***/ "./node_modules/.pnpm/@heroicons+react@2.0.13_react@18.2.0/node_modules/@heroicons/react/20/solid/esm/PaperClipIcon.js":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@heroicons+react@2.0.13_react@18.2.0/node_modules/@heroicons/react/20/solid/esm/PaperClipIcon.js ***!
+  \*****************************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n\n\nfunction PaperClipIcon({\n  title,\n  titleId,\n  ...props\n}, svgRef) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"svg\", Object.assign({\n    xmlns: \"http://www.w3.org/2000/svg\",\n    viewBox: \"0 0 20 20\",\n    fill: \"currentColor\",\n    \"aria-hidden\": \"true\",\n    ref: svgRef,\n    \"aria-labelledby\": titleId\n  }, props), title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"title\", {\n    id: titleId\n  }, title) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"path\", {\n    fillRule: \"evenodd\",\n    d: \"M15.621 4.379a3 3 0 00-4.242 0l-7 7a3 3 0 004.241 4.243h.001l.497-.5a.75.75 0 011.064 1.057l-.498.501-.002.002a4.5 4.5 0 01-6.364-6.364l7-7a4.5 4.5 0 016.368 6.36l-3.455 3.553A2.625 2.625 0 119.52 9.52l3.45-3.451a.75.75 0 111.061 1.06l-3.45 3.451a1.125 1.125 0 001.587 1.595l3.454-3.553a3 3 0 000-4.242z\",\n    clipRule: \"evenodd\"\n  }));\n}\n\nconst ForwardRef = react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(PaperClipIcon);\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ForwardRef);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvLnBucG0vQGhlcm9pY29ucytyZWFjdEAyLjAuMTNfcmVhY3RAMTguMi4wL25vZGVfbW9kdWxlcy9AaGVyb2ljb25zL3JlYWN0LzIwL3NvbGlkL2VzbS9QYXBlckNsaXBJY29uLmpzIiwibWFwcGluZ3MiOiI7Ozs7O0FBQStCOztBQUUvQjtBQUNBO0FBQ0E7QUFDQTtBQUNBLENBQUM7QUFDRCxzQkFBc0IsZ0RBQW1CO0FBQ3pDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEdBQUcsK0JBQStCLGdEQUFtQjtBQUNyRDtBQUNBLEdBQUcsOEJBQThCLGdEQUFtQjtBQUNwRDtBQUNBO0FBQ0E7QUFDQSxHQUFHO0FBQ0g7O0FBRUEsbUJBQW1CLDZDQUFnQjtBQUNuQyxpRUFBZSxVQUFVIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW50ZWxsaWdlbnRsaWZ0aW5nLy4vbm9kZV9tb2R1bGVzLy5wbnBtL0BoZXJvaWNvbnMrcmVhY3RAMi4wLjEzX3JlYWN0QDE4LjIuMC9ub2RlX21vZHVsZXMvQGhlcm9pY29ucy9yZWFjdC8yMC9zb2xpZC9lc20vUGFwZXJDbGlwSWNvbi5qcz9iNDFjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuXG5mdW5jdGlvbiBQYXBlckNsaXBJY29uKHtcbiAgdGl0bGUsXG4gIHRpdGxlSWQsXG4gIC4uLnByb3BzXG59LCBzdmdSZWYpIHtcbiAgcmV0dXJuIC8qI19fUFVSRV9fKi9SZWFjdC5jcmVhdGVFbGVtZW50KFwic3ZnXCIsIE9iamVjdC5hc3NpZ24oe1xuICAgIHhtbG5zOiBcImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCIsXG4gICAgdmlld0JveDogXCIwIDAgMjAgMjBcIixcbiAgICBmaWxsOiBcImN1cnJlbnRDb2xvclwiLFxuICAgIFwiYXJpYS1oaWRkZW5cIjogXCJ0cnVlXCIsXG4gICAgcmVmOiBzdmdSZWYsXG4gICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogdGl0bGVJZFxuICB9LCBwcm9wcyksIHRpdGxlID8gLyojX19QVVJFX18qL1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJ0aXRsZVwiLCB7XG4gICAgaWQ6IHRpdGxlSWRcbiAgfSwgdGl0bGUpIDogbnVsbCwgLyojX19QVVJFX18qL1JlYWN0LmNyZWF0ZUVsZW1lbnQoXCJwYXRoXCIsIHtcbiAgICBmaWxsUnVsZTogXCJldmVub2RkXCIsXG4gICAgZDogXCJNMTUuNjIxIDQuMzc5YTMgMyAwIDAwLTQuMjQyIDBsLTcgN2EzIDMgMCAwMDQuMjQxIDQuMjQzaC4wMDFsLjQ5Ny0uNWEuNzUuNzUgMCAwMTEuMDY0IDEuMDU3bC0uNDk4LjUwMS0uMDAyLjAwMmE0LjUgNC41IDAgMDEtNi4zNjQtNi4zNjRsNy03YTQuNSA0LjUgMCAwMTYuMzY4IDYuMzZsLTMuNDU1IDMuNTUzQTIuNjI1IDIuNjI1IDAgMTE5LjUyIDkuNTJsMy40NS0zLjQ1MWEuNzUuNzUgMCAxMTEuMDYxIDEuMDZsLTMuNDUgMy40NTFhMS4xMjUgMS4xMjUgMCAwMDEuNTg3IDEuNTk1bDMuNDU0LTMuNTUzYTMgMyAwIDAwMC00LjI0MnpcIixcbiAgICBjbGlwUnVsZTogXCJldmVub2RkXCJcbiAgfSkpO1xufVxuXG5jb25zdCBGb3J3YXJkUmVmID0gUmVhY3QuZm9yd2FyZFJlZihQYXBlckNsaXBJY29uKTtcbmV4cG9ydCBkZWZhdWx0IEZvcndhcmRSZWY7Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/.pnpm/@heroicons+react@2.0.13_react@18.2.0/node_modules/@heroicons/react/20/solid/esm/PaperClipIcon.js\n");
+
+/***/ })
+
+};
+;

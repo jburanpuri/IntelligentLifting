@@ -12,7 +12,6 @@
     "@fullstory/browser": "^1.6.2",
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
-    "@next/font": "13.1.1",
     "amplify": "^0.0.11",
     "animate.css": "^4.1.1",
     "chart.js": "^4.2.0",
